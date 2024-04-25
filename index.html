@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Kreiranje layouta web sajta korišćenjem Bootstrapa</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header class="p-3">
+        <div class="container-fluid">
+            <div class="row align-items-center bg-light p-2">
+                <div class="col-5 col-xl-6">
+                    <h1 class="display-6 text-dark">My Website</h1>
+                </div>
+                <nav id="navbar-xl" class="col-7 col-xl-6 d-none d-lg-flex px-2">
+                    <a href="#" class="text-decoration-none">Home</a>
+                    <a href="#" class="text-decoration-none">Portfolio</a>
+                    <a href="#" class="text-decoration-none">Stuff</a>
+                    <a href="#" class="text-decoration-none">Features</a>
+                    <a href="#" class="text-decoration-none">Blog</a>
+                    <a href="#" class="text-decoration-none">Contact</a>
+                    <a href="#" class="text-decoration-none">Download</a>
+                </nav>
+                <nav id="navbar-md" class="col-6 d-flex d-lg-none pr-3">
+                    <img src="./images/menu.png" alt="menu">
+                    <p class="h6 mb-0">Menu</p>
+                </nav>
+            </div>
+        </div>
+    </header><!--header-->
+
+    <section id="hero-section">
+        <div class="row">
+            <div class="col-12 p-0">
+                <img class="img-fluid" src="./images/hero.jpg" alt="hero">
+                <p id="hero-text" class="h5 py-2 px-1 text-light fw-bold">We strive to make all of our creations exqusite.</p>
+            </div>
+        </div>
+    </section><!--hero-section-->
+
+    <section id="intro-section" class="py-5 px-2 mx-auto">
+        <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-12 my-2 my-lg-0">
+                <img src="./images/icon-1.png" alt="icon 1">
+                <p class="p-2 h5 fw-bold text-dark">Purpose</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, incidunt?</p>
+            </div>
+            <div class="col-lg-3 col-md-12 my-2 my-lg-0">
+                <img src="./images/icon-2.png" alt="icon 2">
+                <p class="p-2 h5 fw-bold text-dark">Quality</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, natus?</p>
+            </div>
+            <div class="col-lg-3 col-md-12 my-2 my-lg-0">
+                <img src="./images/icon-3.png" alt="icon 3">
+                <p class="p-2 h5 fw-bold text-dark">Function</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minus.</p>
+            </div>
+            <div class="col-lg-3 col-md-12 my-2 my-lg-0">
+                <img src="./images/icon-4.png" alt="icon">
+                <p class="p-2 h5 fw-bold text-dark">Elegant</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ullam?</p>
+            </div>
+        </div>
+    </div>
+    </section><!--intro-section-->
+
+    <section id="info-section" class="py-5 px-2 text-left justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="fw-bold h5 text-uppercase mb-0">Recent Work</p>
+                    <hr>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./images/bike-400x340.jpg" alt="bike">
+                    <p class="fw-bold text-dark h6 mt-3 mb-0">Green Bike</p>
+                    <p class="mt-0 p-0 pb-3">Beautiful, Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./images/surf-400x340.jpg" alt="surf">
+                    <p class="fw-bold text-dark h6 mt-3 mb-0">Salt Of The Earth</p>
+                    <p class="mt-0 p-0 pb-3">Beautiful, Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./images/hills-400x340.jpg" alt="hills">
+                    <p class="fw-bold text-dark h6 mt-3 mb-0">Mountain High</p>
+                    <p class="mt-0 p-0 pb-3">Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="images/path-400x340.jpg" alt="path">
+                    <p class="fw-bold text-dark h6 mt-3 mb-0">When a Tree Falls</p>
+                    <p class="mt-0 p-0 pb-3">Beautiful</p>
+                </div>
+            </div><!--recent work-->
+            
+            <div class="row py-5">
+                    <div class="col-12">
+                        <p class="h5 text-uppercase fw-bold mb-0">From the blog</p>
+                        <hr>
+                    </div>
+                <div class="col-xl-4 col-md-12">
+                    <img class="img-fluid" src="./images/cow-640x340.jpg" alt="cow">
+                    <p class="fw-bold text-dark h6 pt-3">Now Now</p>
+                    <p class="pb-2 m-0">Posted on October 28, 2020</p>
+                    <p class="mt-0 p-0 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, explicabo! Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <img class="img-fluid" src="./images/sunrise-640x340.jpg" alt="sunrise">
+                    <p class="fw-bold text-dark h6 pt-3">Adrift by Simon Christen</p>
+                    <p class="pb-2 m-0">Posted on September 29, 2020</p>
+                    <p class="mt-0 p-0 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, omnis. Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <img class="img-fluid" src="./images/grass-640x340.jpg" alt="grass">
+                    <p class="fw-bold text-dark h6 pt-3">A Walk In The Park</p>
+                    <p class="pb-2 m-0">Posted on August 10, 2020</p>
+                    <p class="mt-0 p-0 pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, accusamus! Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div><!--from the blog-->
+    </section><!--info-section-->
+
+    <section id="contact-section" class="py-5 mx-auto text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-12">
+                    <p class="text-light fw-bold h5 py-2 px-0">My Website</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt consectetur repudiandae, odit molestias vitae quis dolorum est cumque optio ipsum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, saepe?Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <p class="text-light fw-bold h5 py-2 px-0">Recent Posts</p>
+                    <ul id="contact-section-list1" class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Now Now</a></li>
+                        <li><a href="#" class="text-decoration-none">Adrift by Simon Christen</a></li>
+                        <li><a href="#" class="text-decoration-none">A Walk In The Park</a></li>
+                        <li><a href="#" class="text-decoration-none">Time To Think</a></li>
+                        <li><a href="#" class="text-decoration-none">Field Of Dreams</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <p class="text-light fw-bold h5 py-2 px-0">Recent Work</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Beautiful</a></li>
+                        <li><a href="#" class="text-decoration-none">Travel</a></li>
+                        <li><a href="#" class="text-decoration-none">Surreal</a></li>
+                        <li><a href="#" class="text-decoration-none">Thoughts</a></li>
+                        <li><a href="#" class="text-decoration-none">Unique</a></li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+    </section><!--contact-section-->
+
+    <footer id="footer-section" class="bg-black text-center p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <p>@ 2020 ITAcademy</p>
+                </div>
+            </div>
+        </div>
+    </footer><!--footer-section-->
+
+    <script src="./JS/jquery-3.7.1.slim.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+</body>
+</html>
